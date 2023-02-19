@@ -15,7 +15,7 @@ const Discover = () => {
     if (error) return <Error />
     return (
         <div className='flex flex-col'>
-            <div className='flex justify-center items-center sm:flex-row flex-col mt-4 mb-10'>
+            <div className='flex justify-between items-center sm:flex-row flex-col mt-4 mb-10'>
                 <h2 className='font-bold text-3xl text-white text-left'>Discover {genreTitle}</h2>
                 <select
                     onChange={() => { }}
